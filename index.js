@@ -98,7 +98,7 @@ async function connectionLogic() {
                         sock.readMessages([key]);
                         // Kirim pesan balasan jika semua data terisi
                         const responseMessage = {
-                            text: `Halo ${userName}, Saya Ali Admin Edukasi Malahayati Consultant, Saat ini anda sedang dalam layanan tim edukasi malahayati consultant`
+                            text: `Halo ${userName}, Saya Akmal Admin Edukasi Malahayati Consultant, Saat ini anda sedang dalam layanan tim edukasi malahayati consultant`
                         };
                         sock.sendMessage(message.key.remoteJid, responseMessage);
 
